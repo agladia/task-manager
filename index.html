@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <title> Task manager </title>
+</head>
+<body>
+    <header>
+        <h1> Task Manager </h1>
+    </header>
+    <main> 
+        
+        <form class="input-container" onsubmit="return false"> 
+            <input id="write_task" placeholder="Enter task..." >
+            <button id="add_task"> + </button>
+        </form>
+        <div class="tasks-container">
+
+            
+            <div id="tasks_undone" class="tasks"> 
+                <h2> Tasks undone</h2>
+
+            </div>
+
+            <div id="tasks_done" class="tasks">
+                <h2> Tasks done</h2>
+            </div>
+        </div>
+    </main>
+    <footer> Made by xpaulina.sygut@gmail.com </footer>
+    <script src="js/tasks.js"></script>
+</body>
+</html>

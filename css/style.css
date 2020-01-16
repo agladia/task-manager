@@ -1,0 +1,128 @@
+body
+{
+    font-family: 'Lato', sans-serif;
+    background: #16a085;
+    margin: 0;
+}
+
+header
+{
+    text-align: center;
+    color: white;
+    font-size: 55px;
+    
+}
+
+header h1
+{
+    font-weight: lighter;
+
+}
+
+.input-container
+{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+#write_task
+{
+
+    width: 82%;
+    height: 50px;
+    margin: 0px;
+    border: 0px;
+    float: left;
+    padding: 0;
+    border-radius: 15px 0px 0px 15px;
+    padding-left: 3%;
+    font-size: 22px;
+}
+
+#add_task
+{
+
+    width: 15%;
+    padding: 0px;
+    height: 50px;
+    padding: 0;
+    margin: 0px;
+    border: 0px;
+    float: left;
+    background: #2ecc71;
+    color: white;
+    font-size: 25px;
+    border-radius: 0px 15px 15px 0px;
+    margin-bottom: 100px;
+}
+
+.tasks-container
+{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tasks
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 40%;
+    
+    background: #1abc9c;
+    display: flex;
+    margin: 15px;
+    flex-direction: column;
+    justify-content: top;
+}
+
+.tasks input
+{
+
+}
+
+.task
+{
+    margin: 0 auto;
+    width: 90%;
+    padding: 15px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.task:hover
+{
+    text-decoration: line-through;
+}
+
+#tasks_done .task
+{
+    text-decoration: line-through;
+}
+
+.tasks h2
+{
+    color: white;
+    font-weight: lighter;
+}
+
+footer
+{
+    padding: 10px 0px 10px 0px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background: #12856e;
+    font-size: 12px;
+    
+    width: 100%;
+    
+}
